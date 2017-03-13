@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SecondWork</string>
+
+    <!-- TableActivity -->
+    <string name="Open">Open...</string>
+    <string name="Save">Save...</string>
+    <string name="Save_AS">Save AS...</string>
+    <string name="Import">Import...</string>
+    <string name="Export">Export...</string>
+    <string name="Quit">Quit</string>
+    <string name="Ctrl_O">Ctrl-O</string>
+    <string name="Ctrl_Shitf_S">Ctrl-Shitf-S</string>
+    <string name="Ctrl_S">Ctrl-S</string>
+    <string name="Ctrl_E">Ctrl-E</string>
+    <string name="X"> X </string>
+    <string name="empty">  </string>
+
+    <!-- TableActivity -->
+    <string name="Red">RED</string>
+    <string name="Orange">ORANGE</string>
+    <string name="Yellow">YELLOW</string>
+    <string name="Green">GREEN</string>
+    <string name="Blue">BLUE</string>
+    <string name="Indigo">INDIGO</string>
+    <string name="Violet">VIOLET</string>
+
+
+
+
+
+
+</resources>

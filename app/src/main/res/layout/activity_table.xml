@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:stretchColumns="1">
+
+    <!--first row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+
+        <TextView
+            android:text="  "
+            android:textColor="@color/colorGray"
+            android:layout_marginRight="@dimen/activity_margin_around"/>
+        <TextView
+            android:text="@string/Open"
+            android:textColor="@color/colorGray"/>
+        <TextView
+            android:text="@string/Ctrl_O"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="right|center_vertical" />
+    </TableRow>
+
+    <!--second row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+        <TextView
+            android:text="  "
+            android:textColor="@color/colorGray"
+            android:layout_marginRight="@dimen/activity_margin_around"/>
+        <TextView
+            android:text="@string/Save"
+            android:textColor="@color/colorGray"/>
+        <TextView
+            android:text="@string/Ctrl_S"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="right|center_vertical" />
+    </TableRow>
+
+    <!--Third row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+        <TextView
+            android:text="  "
+            android:layout_marginRight="@dimen/activity_margin_around"/>
+        <TextView
+            android:text="@string/Save_AS"
+            android:textColor="@color/colorGray"/>
+        <TextView
+            android:text="@string/Ctrl_Shitf_S"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="right|center_vertical" />
+    </TableRow>
+    <!--Fourth row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+        <View
+            android:background="@color/colorGray"
+            android:layout_width = "match_parent"
+            android:layout_height="@dimen/activity_line_width"/>
+        <View
+            android:background="@color/colorGray"
+            android:layout_width = "match_parent"
+            android:layout_height="@dimen/activity_line_width"/>
+        <View android:background="@color/colorGray"
+            android:layout_width = "match_parent"
+            android:layout_height="@dimen/activity_line_width"/>
+    </TableRow>
+
+    <!--fifth row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+        <TextView
+            android:text="X "
+            android:textColor="@color/colorGray"
+            android:layout_marginRight="@dimen/activity_margin_around"/>
+        <TextView
+            android:text="@string/Import"
+            android:textColor="@color/colorGray"/>
+        <TextView
+            android:textColor="@color/colorGray"
+            android:layout_gravity="right|center_vertical" />
+    </TableRow>
+
+    <!--sixth row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+        <TextView
+            android:text="X "
+            android:textColor="@color/colorGray"
+            android:layout_marginRight="@dimen/activity_margin_around"/>
+        <TextView
+            android:text="@string/Export"
+            android:textColor="@color/colorGray"/>
+        <TextView
+            android:text="@string/Ctrl_E"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="right|center_vertical" />
+    </TableRow>
+
+    <!--seventh row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+        <View android:background="@color/colorGray"
+            android:layout_width = "match_parent"
+            android:layout_height="@dimen/activity_line_width"/>
+        <View android:background="@color/colorGray"
+            android:layout_width = "match_parent"
+            android:layout_height="@dimen/activity_line_width"/>
+        <View android:background="@color/colorGray"
+            android:layout_width = "match_parent"
+            android:layout_height="@dimen/activity_line_width"/>
+    </TableRow>
+
+    <!--eighth row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_margin_around"
+        android:layout_marginBottom="@dimen/activity_margin_around">
+        <TextView
+            android:text="  "
+            android:layout_marginRight="@dimen/activity_margin_around"/>
+        <TextView
+            android:text="@string/Quit"
+            android:textColor="@color/colorGray"/>
+        <TextView
+            android:textColor="@color/colorGray"
+            android:layout_gravity="right|center_vertical" />
+    </TableRow>
+
+
+</TableLayout>
